@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this is for customizing settings
+    for the Woflieball Draft Kit interface, NOT the Web page that we're building. 
+-->
+<properties>
+    <property_list>    
+        <property name="PROP_APP_TITLE"   value="Wolfieball Draft Kit"></property>  
+        
+        <!-- PROGRAM ICON FILES -->
+        <property name="NEW_DRAFT_ICON"    value="New.png"></property>
+        <property name="LOAD_DRAFT_ICON"   value="Load.png"></property>
+        <property name="SAVE_DRAFT_ICON"   value="Save.png"></property>
+        <property name="VIEW_DRAFT_ICON" value="View.png"></property>
+        <property name="EXPORT_PAGE_ICON"   value="Export.png"></property>
+        <property name="DELETE_ICON"        value="Delete.png"></property>
+        <property name="EXIT_ICON"          value="Exit.png"></property>        
+        <property name="ADD_ICON"           value="Add.png"></property>
+        <property name="MINUS_ICON"         value="Minus.png"></property>
+        <property name="MOVE_UP_ICON"       value="MoveUp.png"></property>
+        <property name="MOVE_DOWN_ICON"     value="MoveDown.png"></property>
+        <property name="FANTASY_TEAMS_ICON" value="FantasyTeams.png"></property>
+        <property name="PLAYERS_ICON"       value="Players.png"></property>
+        <property name="FANTASY_STANDINGS_ICON" value="FantasyStandings.png"></property>
+        <property name="DRAFT_SUMMARY_ICON" value="DraftSummary.png"></property>
+        <property name="MLB_TEAMS_ICON"     value="MLBTeams.png"></property>
+        <property name="EDIT_ICON"          value="Edit.png"></property>
+        <property name="PLAY_ICON"          value="Play.png"></property>
+        <property name="PAUSE_ICON"         value="Pause.png"></property>
+        <property name="STAR_ICON"          value="Star.png"></property>
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="NEW_DRAFT_TOOLTIP"          value="Create a New Draft"></property>
+        <property name="LOAD_DRAFT_TOOLTIP"         value="Load an Existing Draft"></property>
+        <property name="SAVE_DRAFT_TOOLTIP"         value="Save this Draft"></property>
+        <property name="VIEW_DRAFT_TOOLTIP"         value="View the Draft"></property>
+        <property name="EXPORT_PAGE_TOOLTIP"        value="Export the Summary Page"></property>
+        <property name="DELETE_TOOLTIP"             value="Delete this Draft"></property>
+        <property name="EXIT_TOOLTIP"               value="Exit the Application"></property>
+        <property name="ADD_ITEM_TOOLTIP"           value="Add Player"></property>
+        <property name="REMOVE_ITEM_TOOLTIP"        value="Remove Player"></property>
+        <property name="FANTASY_TEAMS_TOOLTIP"      value="Fantasy Teams"></property>
+        <property name="PLAYERS_TOOLTIP"            value="Available Players"></property>
+        <property name="FANTASY_STANDINGS_TOOLTIP"  value="Fantasy Standings"></property>
+        <property name="DRAFT_SUMMARY_TOOLTIP"      value="Draft Summary"></property>
+        <property name="MLB_TEAMS_TOOLTIP"          value="MLB Teams"></property>
+        <property name="MOVE_UP_TOOLTIP"            value="Move Up"></property>
+        <property name="MOVE_DOWN_TOOLTIP"          value="Move Down"></property>
+        <property name="ADD_TOOLTIP"                value="Add Player"></property>
+        <property name="REMOVE_TOOLTIP"             value="Remove Player"></property>
+        <property name="SEARCH_TOOLTIP"             value="Search"></property>
+        <property name="ADD_TEAM_TOOLTIP"           value="Add Team"></property>
+        <property name="REMOVE_TEAM_TOOLTIP"        value="Remove Team"></property>
+        <property name="EDIT_TEAM_TOOLTIP"          value="Edit Team"></property>
+        <property name="AUTO_TOOLTIP"               value="Auto Draft Player"></property>
+        <property name="PLAY_TOOLTIP"               value="Begin Automated Draft"></property>
+        <property name="PAUSE_TOOLTIP"              value="Pause Automated Draft"></property>
+        
+        <!-- GUI LABELS -->
+        <property name="DRAFT_HEADING_LABEL"       value="Draft Site Details"></property>
+        <property name="FANTASY_TEAMS_LABEL"       value="Fantasy Teams"></property>
+        <property name="PLAYERS_LABEL"             value="Available Players"></property>
+        <property name="FANTASY_STANDINGS_LABEL"   value="Fantasy Standings"></property>
+        <property name="DRAFT_SUMMARY_LABEL"       value="Draft Summary"></property>
+        <property name="MLB_TEAMS_LABEL"           value="MLB Teams"></property>
+        <property name="SEARCH_LABEL"              value="Search:"></property>
+        <property name="ALL_LABEL"                 value="All"></property>
+        <property name="C_LABEL"                    value="C"></property>
+        <property name="FIRST_LABEL"                value="1B"></property>
+        <property name="CI_LABEL"                   value="CI"></property>
+        <property name="THIRD_LABEL"                value="3B"></property>
+        <property name="SECOND_LABEL"               value="2B"></property>
+        <property name="MI_LABEL"                   value="MI"></property>
+        <property name="SS_LABEL"                   value="SS"></property>
+        <property name="OF_LABEL"                   value="OF"></property>
+        <property name="U_LABEL"                    value="U"></property>
+        <property name="P_LABEL"                    value="P"></property>
+        <property name="FIRST_NAME_LABEL"           value="First Name"></property>
+        <property name="LAST_NAME_LABEL"            value="Last Name"></property>
+        <property name="TEAM_LABEL"                 value="Pro Team"></property>
+        <property name="QP_LABEL"                   value="Positions"></property>
+        <property name="YEAR_OF_BIRTH_LABEL"        value="Year Of Birth"></property>
+        <property name="R_LABEL"                    value="R"></property>
+        <property name="W_LABEL"                    value="W"></property>
+        <property name="HR_LABEL"                   value="HR"></property>
+        <property name="SW_LABEL"                   value="SV"></property>
+        <property name="RBI_LABEL"                  value="RBI"></property>
+        <property name="K_LABEL"                    value="K"></property>
+        <property name="SB_LABEL"                   value="SB"></property>
+        <property name="ERA_LABEL"                  value="ERA"></property>
+        <property name="BA_LABEL"                   value="BA"></property>
+        <property name="WHIP_LABEL"                 value="WHIP"></property>
+        <property name="EV_LABEL"                   value="Estimated Value"></property>
+        <property name="NOTES_LABEL"                value="Notes"></property>
+        <property name="SELECT_FANTASY_TEAM_LABEL"  value="Select Fantasy Team: "></property>
+        <property name="DRAFT_NAME_LABEL"           value="Draft Name: "></property>
+        <property name="STARTING_LINEUP_LABEL"      value="Starting Lineup"></property>
+        <property name="TAXI_SQUAD_LABEL"           value="Taxi Squad"></property>
+        <property name="POSITION_LABEL"             value="Position"></property>
+        <property name="PRO_TEAM_LABEL"             value="Select Pro Team: "></property>
+        <property name="PICK_LABEL"                 value="Pick #"></property>
+        <property name="CONTRACT_LABEL"             value="Contract"></property>  
+        <property name="SALARY_LABEL"               value="Salary"></property>
+        <property name="FANTASY_TEAM_LABEL"         value="Team"></property>
+        <property name="TEAM_NAME_LABEL"            value="Team Name"></property>
+        <property name="PLAYERS_NEEDED_LABEL"       value="Players Needed"></property>
+        <property name="MONEY_LEFT_LABEL"           value="$ Left"></property>
+        <property name="PP_LABEL"                   value="$ PP"></property>
+        <property name="TOTAL_POINTS_LABEL"         value="Total Points"></property>
+                    
+        <!-- ERROR MESSAGES -->
+        
+
+        <!-- VERIFICATION MESSAGES -->
+        <property name="NEW_DRAFT_CREATED_MESSAGE"     value="New Draft Created but not yet Saved"></property>
+        <property name="DRAFT_LOADED_MESSAGE"          value="The Draft has been Loaded"></property>
+        <property name="DRAFT_SAVED_MESSAGE"           value="The Draft has been Saved"></property>
+        <property name="SITE_EXPORTED_MESSAGE"          value="The Draft Summary has been Exported"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"      value="Do you want to save your unsaved work first?"></property>
+        <property name="REMOVE_TEAM_MESSAGE"            value="Are you sure you wish to remove the team?"></property>
+        <property name="REMOVE_PLAYER_MESSAGE"          value="Are you sure you wish to remove the player?"></property>
+    </property_list>
+    <property_options_list>
+    </property_options_list>
+</properties>
